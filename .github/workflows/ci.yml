@@ -2,9 +2,8 @@ name: CI
 
 on:
   push:
-    branches: [ "**" ]
   pull_request:
-    branches: [ "**" ]
+  workflow_dispatch:
 
 jobs:
   build-test:
@@ -35,4 +34,3 @@ jobs:
       - name: Build
         working-directory: backend-woltapp-completion
         run: go build ./cmd/dopc
-
