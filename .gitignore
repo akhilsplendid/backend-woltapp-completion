@@ -1,5 +1,5 @@
 # Binaries
-**/dopc
+/dopc
 **/dopc.exe
 /bin/
 /build/
@@ -16,4 +16,3 @@ tmp_*.json
 # IDE/editor
 .idea/
 .vscode/
-
