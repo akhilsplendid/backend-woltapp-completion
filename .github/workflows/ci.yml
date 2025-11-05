@@ -28,7 +28,9 @@ jobs:
             ${{ runner.os }}-go-
 
       - name: Test
+        working-directory: backend-woltapp-completion
         run: go test ./...
 
       - name: Build
+        working-directory: backend-woltapp-completion
         run: go build ./cmd/dopc
