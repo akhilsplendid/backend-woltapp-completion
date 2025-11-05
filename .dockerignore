@@ -1,0 +1,10 @@
+.git
+**/*.md
+**/*_test.go
+**/.DS_Store
+**/*.png
+tmp_*
+bin/
+node_modules/
+*.log
+

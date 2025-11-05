@@ -1,0 +1,19 @@
+# Binaries
+**/dopc
+**/dopc.exe
+/bin/
+/build/
+
+# Caches & logs
+*.log
+.DS_Store
+
+# Test & temp outputs
+coverage*
+resp.json
+tmp_*.json
+
+# IDE/editor
+.idea/
+.vscode/
+
